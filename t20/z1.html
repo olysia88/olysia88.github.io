@@ -1,0 +1,52 @@
+﻿<html>
+	<head>
+		<title>Форми</title>
+		<style>
+			input[type=text]{
+				width: 300px;
+				height: 30px;
+				border-radius: 5px;
+				border:1.5 solid black;
+			}
+			input[type=password]{
+				width: 300px;
+				height: 30px;
+				border-radius: 5px;
+				border:1.5 solid black;
+				}
+			body{
+				background-color: #ff0000;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<form action='https://rozetka.com.ua/ua/'>
+			<p>
+			<label>Login</label><br>
+			<input type='text' placeholder='Phone or Email' required autofocus><br><br>
+			</p>
+			<p>
+			<label>Password</label><br>
+			<input type='password' placeholder='Enter your password' required><br><br>
+			</p>
+			<p>
+			<input type='submit' value='Увійти'><br><br>
+			</p>
+			<p>
+				<label>Gender</label><br>
+				<input type='radio' name='gender'>Male<br>
+				<input type='radio' name='gender'>Female<br>
+			</p>
+			<p>
+				<label>Favorite animal</label><br>
+				<input type='checkbox' name='animal'>Cat<br>
+				<input type='checkbox' name='animal'>Dog<br>
+				<input type='checkbox' name='animal'>Elephant<br>
+				<input type='checkbox' name='animal'>Monkey<br>
+			</p>
+			
+		</form>
+	</body>
+</html>
